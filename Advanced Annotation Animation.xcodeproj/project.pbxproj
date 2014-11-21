@@ -13,6 +13,8 @@
 		DD59BF211A1E9B0700BB2C5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD59BF201A1E9B0700BB2C5A /* Images.xcassets */; };
 		DD59BF241A1E9B0700BB2C5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD59BF221A1E9B0700BB2C5A /* LaunchScreen.xib */; };
 		DD59BF301A1E9B0700BB2C5A /* Advanced_Annotation_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59BF2F1A1E9B0700BB2C5A /* Advanced_Annotation_AnimationTests.swift */; };
+		DD59BF421A1EA97000BB2C5A /* SSPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD59BF411A1EA97000BB2C5A /* SSPieProgressView.m */; };
+		DD59BF451A1EAA0200BB2C5A /* SSDrawingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DD59BF441A1EAA0200BB2C5A /* SSDrawingUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,11 @@
 		DD59BF291A1E9B0700BB2C5A /* Advanced Annotation AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced Annotation AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD59BF2E1A1E9B0700BB2C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD59BF2F1A1E9B0700BB2C5A /* Advanced_Annotation_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_Annotation_AnimationTests.swift; sourceTree = "<group>"; };
+		DD59BF391A1EA15900BB2C5A /* Advanced Annotation Animation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Advanced Annotation Animation-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD59BF401A1EA97000BB2C5A /* SSPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPieProgressView.h; sourceTree = "<group>"; };
+		DD59BF411A1EA97000BB2C5A /* SSPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPieProgressView.m; sourceTree = "<group>"; };
+		DD59BF431A1EAA0200BB2C5A /* SSDrawingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDrawingUtilities.h; sourceTree = "<group>"; };
+		DD59BF441A1EAA0200BB2C5A /* SSDrawingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDrawingUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +86,15 @@
 			children = (
 				DD59BF191A1E9B0700BB2C5A /* AppDelegate.swift */,
 				DD59BF1B1A1E9B0700BB2C5A /* ViewController.swift */,
+				DD59BF431A1EAA0200BB2C5A /* SSDrawingUtilities.h */,
+				DD59BF441A1EAA0200BB2C5A /* SSDrawingUtilities.m */,
+				DD59BF401A1EA97000BB2C5A /* SSPieProgressView.h */,
+				DD59BF411A1EA97000BB2C5A /* SSPieProgressView.m */,
 				DD59BF1D1A1E9B0700BB2C5A /* Main.storyboard */,
 				DD59BF201A1E9B0700BB2C5A /* Images.xcassets */,
 				DD59BF221A1E9B0700BB2C5A /* LaunchScreen.xib */,
 				DD59BF171A1E9B0700BB2C5A /* Supporting Files */,
+				DD59BF391A1EA15900BB2C5A /* Advanced Annotation Animation-Bridging-Header.h */,
 			);
 			path = "Advanced Annotation Animation";
 			sourceTree = "<group>";
@@ -213,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD59BF1C1A1E9B0700BB2C5A /* ViewController.swift in Sources */,
+				DD59BF451A1EAA0200BB2C5A /* SSDrawingUtilities.m in Sources */,
+				DD59BF421A1EA97000BB2C5A /* SSPieProgressView.m in Sources */,
 				DD59BF1A1A1E9B0700BB2C5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,9 +352,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Advanced Annotation Animation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Advanced Annotation Animation/Advanced Annotation Animation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +365,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Advanced Annotation Animation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Advanced Annotation Animation/Advanced Annotation Animation-Bridging-Header.h";
 			};
 			name = Release;
 		};
