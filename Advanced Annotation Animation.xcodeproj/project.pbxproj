@@ -12,20 +12,9 @@
 		DD59BF1F1A1E9B0700BB2C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59BF1D1A1E9B0700BB2C5A /* Main.storyboard */; };
 		DD59BF211A1E9B0700BB2C5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD59BF201A1E9B0700BB2C5A /* Images.xcassets */; };
 		DD59BF241A1E9B0700BB2C5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD59BF221A1E9B0700BB2C5A /* LaunchScreen.xib */; };
-		DD59BF301A1E9B0700BB2C5A /* Advanced_Annotation_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59BF2F1A1E9B0700BB2C5A /* Advanced_Annotation_AnimationTests.swift */; };
 		DD59BF421A1EA97000BB2C5A /* SSPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD59BF411A1EA97000BB2C5A /* SSPieProgressView.m */; };
 		DD59BF451A1EAA0200BB2C5A /* SSDrawingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DD59BF441A1EAA0200BB2C5A /* SSDrawingUtilities.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DD59BF2A1A1E9B0700BB2C5A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD59BF0C1A1E9B0700BB2C5A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD59BF131A1E9B0700BB2C5A;
-			remoteInfo = "Advanced Annotation Animation";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DD59BF141A1E9B0700BB2C5A /* Advanced Annotation Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Annotation Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,9 +24,6 @@
 		DD59BF1E1A1E9B0700BB2C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD59BF201A1E9B0700BB2C5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DD59BF231A1E9B0700BB2C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		DD59BF291A1E9B0700BB2C5A /* Advanced Annotation AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced Annotation AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD59BF2E1A1E9B0700BB2C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD59BF2F1A1E9B0700BB2C5A /* Advanced_Annotation_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_Annotation_AnimationTests.swift; sourceTree = "<group>"; };
 		DD59BF391A1EA15900BB2C5A /* Advanced Annotation Animation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Advanced Annotation Animation-Bridging-Header.h"; sourceTree = "<group>"; };
 		DD59BF401A1EA97000BB2C5A /* SSPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPieProgressView.h; sourceTree = "<group>"; };
 		DD59BF411A1EA97000BB2C5A /* SSPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPieProgressView.m; sourceTree = "<group>"; };
@@ -53,13 +39,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD59BF261A1E9B0700BB2C5A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -67,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				DD59BF161A1E9B0700BB2C5A /* Advanced Annotation Animation */,
-				DD59BF2C1A1E9B0700BB2C5A /* Advanced Annotation AnimationTests */,
 				DD59BF151A1E9B0700BB2C5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				DD59BF141A1E9B0700BB2C5A /* Advanced Annotation Animation.app */,
-				DD59BF291A1E9B0700BB2C5A /* Advanced Annotation AnimationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,23 +84,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DD59BF2C1A1E9B0700BB2C5A /* Advanced Annotation AnimationTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD59BF2F1A1E9B0700BB2C5A /* Advanced_Annotation_AnimationTests.swift */,
-				DD59BF2D1A1E9B0700BB2C5A /* Supporting Files */,
-			);
-			path = "Advanced Annotation AnimationTests";
-			sourceTree = "<group>";
-		};
-		DD59BF2D1A1E9B0700BB2C5A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD59BF2E1A1E9B0700BB2C5A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,24 +104,6 @@
 			productReference = DD59BF141A1E9B0700BB2C5A /* Advanced Annotation Animation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD59BF281A1E9B0700BB2C5A /* Advanced Annotation AnimationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD59BF361A1E9B0700BB2C5A /* Build configuration list for PBXNativeTarget "Advanced Annotation AnimationTests" */;
-			buildPhases = (
-				DD59BF251A1E9B0700BB2C5A /* Sources */,
-				DD59BF261A1E9B0700BB2C5A /* Frameworks */,
-				DD59BF271A1E9B0700BB2C5A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD59BF2B1A1E9B0700BB2C5A /* PBXTargetDependency */,
-			);
-			name = "Advanced Annotation AnimationTests";
-			productName = "Advanced Annotation AnimationTests";
-			productReference = DD59BF291A1E9B0700BB2C5A /* Advanced Annotation AnimationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +115,6 @@
 				TargetAttributes = {
 					DD59BF131A1E9B0700BB2C5A = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					DD59BF281A1E9B0700BB2C5A = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = DD59BF131A1E9B0700BB2C5A;
 					};
 				};
 			};
@@ -194,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				DD59BF131A1E9B0700BB2C5A /* Advanced Annotation Animation */,
-				DD59BF281A1E9B0700BB2C5A /* Advanced Annotation AnimationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,13 +144,6 @@
 				DD59BF1F1A1E9B0700BB2C5A /* Main.storyboard in Resources */,
 				DD59BF241A1E9B0700BB2C5A /* LaunchScreen.xib in Resources */,
 				DD59BF211A1E9B0700BB2C5A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD59BF271A1E9B0700BB2C5A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,23 +161,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD59BF251A1E9B0700BB2C5A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD59BF301A1E9B0700BB2C5A /* Advanced_Annotation_AnimationTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DD59BF2B1A1E9B0700BB2C5A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD59BF131A1E9B0700BB2C5A /* Advanced Annotation Animation */;
-			targetProxy = DD59BF2A1A1E9B0700BB2C5A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DD59BF1D1A1E9B0700BB2C5A /* Main.storyboard */ = {
@@ -373,40 +287,6 @@
 			};
 			name = Release;
 		};
-		DD59BF371A1E9B0700BB2C5A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Advanced Annotation AnimationTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Annotation Animation.app/Advanced Annotation Animation";
-			};
-			name = Debug;
-		};
-		DD59BF381A1E9B0700BB2C5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Advanced Annotation AnimationTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Annotation Animation.app/Advanced Annotation Animation";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,14 +306,7 @@
 				DD59BF351A1E9B0700BB2C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		DD59BF361A1E9B0700BB2C5A /* Build configuration list for PBXNativeTarget "Advanced Annotation AnimationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD59BF371A1E9B0700BB2C5A /* Debug */,
-				DD59BF381A1E9B0700BB2C5A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
